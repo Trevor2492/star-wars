@@ -1,3 +1,7 @@
+# See the live Demo here:
+
+https://trevor2492.github.io/star-wars/
+
 ## Available Scripts
 
 In the project directory, you can run:
