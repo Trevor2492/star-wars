@@ -4,6 +4,7 @@ import ItemGrid from './components/ItemGrid';
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import NativeSelect from './components/NativeSelect';
+import deathStar from './img/deathStar.svg'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Header />
       <NativeSelect getQuery={(q) => setQuery(q)}/>
       <ItemGrid items={items} />
+      <img src={deathStar} className='object' alt='death star'/>
       
     </div>
   );
